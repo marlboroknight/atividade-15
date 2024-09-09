@@ -1,0 +1,16 @@
+let produto = parseFloat(prompt("Digite o valor do produto: "))
+let desconto = parseFloat(prompt("Digite o porcentual de desconto"))
+
+let novoValor = produto - (desconto/100*produto)
+
+alert("O novo preço corresponde a: R$ "+ novoValor)
+
+
+if(novoValor>90){
+    alert("Compra pode ser dividida em 3 vezes")
+}
+[9/9 19:42] +55 11 96768-7229: let idade = parseInt(prompt("Digite sua idade: "))
+
+let paraCem = 100 - idade
+
+alert("você tem a idade "+idade+" anos faltam " +paraCem+ " anos pára completar 100 anos")
